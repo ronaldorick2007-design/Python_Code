@@ -1,4 +1,5 @@
 #Defining a function to implement binary search
+#Parameters : Input Array must be sorted
 #Complexity : 
 #   Time - O(log N)
 #   Space - O(1)
@@ -31,7 +32,7 @@ def binarySearch(arr, target):
     return -1
 
 #Initializing test cases
-A = [1,6,5,2,3,7]
+A = [-2,3,5,7,8,10]
 k = 5
 print(binarySearch(A, k))       #output : 3
 
